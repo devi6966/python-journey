@@ -21,7 +21,7 @@ print(mystr[0:20:2])  # Prints every 2nd character from index 0 to 19
 print(mystr[0::3])     # Starts from index 0 and prints every 3rd character until the end
 
 
-# REVERSE STRING SLICING
+# EXTENDED REVERSE STRING SLICING
 
 print(mystr[::-1])       # Reverses the whole string
 print(mystr[::-2])       # Reverses the string and prints every 2nd character

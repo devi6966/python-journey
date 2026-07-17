@@ -26,10 +26,12 @@ print(numbers[::-1])
 print(numbers[::-2])
 
 #SOME SPECIAL FUNCTIONS
-num = [75,3,9,25,11,48]
+num = [75,3,9,25,11,48,11]
 num.append("devi") #Add new object at the end
 num.insert(1,12) #Adds a new item at the given index without replacing any existing item
-num.remove("devi") #Removes the given value from the list
-num.pop(2) #Removes and returns the last item from the list
-
+num.remove(11) #Remove using value
+print(num.pop(6)) #Remove using index and return the removed item.
+num[2]=7 #Replace tha value of that exact index
 print(num)
+b=num.copy()# copy() -> Returns a shallow copy of the list
+print(b)
